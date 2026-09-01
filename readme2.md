@@ -1,4 +1,4 @@
-# Library of functions to control TCS device
+# Library of functions to control TCS device from QST.Lab
 
 ## Overview
 This repository provides a MATLAB library to control a **TCS (Thermal Cutaneous Stimulator)** device via serial (USB) communication.
