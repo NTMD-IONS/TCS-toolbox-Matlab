@@ -1,13 +1,11 @@
 # Library of functions to control TCS device
 
-## Note 
-The previous library of functions "+tcs2" required to be fixed. The serial communication was not reliable and slow.\
-This new version gets rid of global variables and functions that are known to cause problems.\
+## Note
 Two Classes have been built:
-- tcs_initialize (dealing with TCS device specific commands)
-- serial_manager (dealing with serial communication, which could be used for any other device communication)
+- "serial_manager": to manage the serial communication (USB) between the computer and the TCS device,
+- "tcs_initialize": to control the TCS device using its specific commands.
 
-tcs_initialize is built on top of serial_manager, and "inherits" Properties (variables) and Methods (functions) from it.
+"tcs_initialize" is built on top of "serial_manager", and inherits Properties (variables) and Methods (functions) from it.
 
 ## General use
 
@@ -76,6 +74,4 @@ or, if an object has already been created:
 for example:
 - help tcs_initialize.get_battery
 
-## Function matching v3 → v4
-Here is a table for the correspondance between the old "+tcs2 library" (v3) and the new Class "tcs_initialize" (v4).
-- See [function_matching_v3_v4.md](function_matching_v3_v4.md) for the full command/function mapping between the old (v3) and new (v4.0.0) library.
+###.
