@@ -1,7 +1,7 @@
 # Library of functions to control TCS device
 
 ## Note
-Two Classes have been built:
+Two Classes have been written:
 - "serial_manager": to manage the serial communication (USB) between the computer and the TCS device,
 - "tcs_initialize": to control the TCS device using its specific commands.
 
