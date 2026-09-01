@@ -164,6 +164,7 @@ help tcs_initialize.get_battery
 
 ## License
 *Copyright (c) 2026 Université catholique de Louvain (UCLouvain)*
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
