@@ -74,4 +74,8 @@ or, if an object has already been created:
 for example:
 - help tcs_initialize.get_battery
 
-###.
+#### Created with MATLAB (R2024a) with Psychtoolbox (3-3.0.19.7) on Windows 11 (25H2).
+- Author : Cédric Lenoir, Neuroscience Techniques and Methods Developement Platform (NeTMeD),
+% Email : cedric.lenoir@uclouvain.be
+% Institute of Neuroscience (IoNS), UCLouvain, Brussels, Belgium.
+% Version 4.0.0, August 2026.//
